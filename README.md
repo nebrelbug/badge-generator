@@ -1,2 +1,3 @@
-# example-server
-An example server for the Google CodeIn
+# Generate ReadMe Badges with Express and Squirrelly
+
+View the Medium article here: (__soon to come__)

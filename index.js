@@ -1,7 +1,6 @@
 let express = require('express');
 let path = require('path');
 let app = express();
-app.set('view engine', 'squirrelly')
 var Sqrl = require('squirrelly')
 
 let server = app.listen(8080, function () {
@@ -9,7 +8,6 @@ let server = app.listen(8080, function () {
 });
 
 Sqrl.defineHelper("returnColor", function (args, content, blocks) {
-    console.log(JSON.stringify(args))
     var colorScheme = {
         brightgreen: "#4c1",
         green: "#97CA00",
